@@ -10,7 +10,7 @@ public class Activator implements BundleActivator {
 	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
 	 */
 	public void start(BundleContext context) throws Exception {
-		System.out.println("Sote 번들을 가동 했습니다.");
+		System.out.println("Store 번들을 가동 했습니다.");
 	}
 	
 	/*
