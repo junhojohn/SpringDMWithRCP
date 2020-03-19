@@ -13,9 +13,9 @@ public class Activator implements BundleActivator {
 	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
 	 */
 	public void start(BundleContext context) throws Exception {
-		System.out.println("StoreManager 번들 가동했습니다.");
-		Greeting greeting = new GreetingImpl();
-		System.out.println(greeting.hi("준호"));
+        System.out.println("StoreMaganer 번들 가동했습니다.");
+        Greeting greeting = new GreetingImpl();
+        System.out.println(greeting.hi("기선"));
 	}
 	
 	/*
@@ -23,7 +23,7 @@ public class Activator implements BundleActivator {
 	 * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
 	 */
 	public void stop(BundleContext context) throws Exception {
-		System.out.println("StoreManager 번들 멈춥니다.");
+		System.out.println("StoreMaganer 번들 멈춥니다.");
 	}
 
 }
