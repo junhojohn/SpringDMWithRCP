@@ -9,4 +9,7 @@ public class GreetingImpl implements Greeting {
 		return "hi " + name;
 	}
 
+	public void start(){
+		System.out.println("GreetingImpl Bean을 만들었습니다.");
+	}
 }
