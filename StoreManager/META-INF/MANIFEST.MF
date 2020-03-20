@@ -6,6 +6,6 @@ Bundle-Version: 1.0.0
 Bundle-Activator: storemanager.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: org.osgi.framework;version="1.3.0",
- service,
- service.impl
+ org.osgi.util.tracker;version="1.5.1",
+ service
 Bundle-ActivationPolicy: lazy
